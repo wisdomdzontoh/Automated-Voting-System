@@ -1,0 +1,40 @@
+ /* Set the background image and animation */
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+ /* Style for the home button */
+.home-button {
+display: inline-block;
+padding: 8px 16px;
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+color: #fff;
+background-color: #007bff;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Style for the home button when hovered */
+.home-button:hover {
+background-color: #0062cc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+canvas {
+  max-width: 80%;
+}
