@@ -30,19 +30,22 @@ Composer (for managing PHP dependencies)
 Installation
 Clone the repository to your web server:
 
-bash
+```
 Copy code
 git clone https://github.com/yourusername/automated-voting-system.git
+```
 Navigate to the project directory:
 
-bash
+```
 Copy code
 cd automated-voting-system
+```
 Install PHP dependencies using Composer:
 
-bash
+```
 Copy code
 composer install
+```
 Import the database schema provided in database.sql to set up the necessary database tables.
 
 Configure the database connection by editing the config.php file and providing your database credentials.
